@@ -16,4 +16,8 @@ function date(callback) {
     }, 3000)
 }
 
-function
+function printDate(dateNow) {
+    console.log(dateNow);
+}
+
+date(printDate);
